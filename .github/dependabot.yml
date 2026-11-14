@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # GitHub Actions workflow dependencies (the only package ecosystem
+  # present in this repository of TOML locale files)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
